@@ -13,3 +13,6 @@ install:
   - export PATH="$PATH:`pwd`/flutter/bin"
   - flutter doctor -v
   - flutter packages get
+cache:
+  directories:
+  - $HOME/.pub-cache
