@@ -1,4 +1,5 @@
 language: generic
+before_install: cd cone_android
 dist: xenial
 addons:
   apt:
